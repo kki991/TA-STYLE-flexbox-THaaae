@@ -50,20 +50,76 @@ table {
 }
 /** custom styles*/
 .container{
-    max-width: 1280px;
+    max-width: 1920px;
 }
 .header{
-    background-color: rgba(18, 18, 56, 0.301);
-    padding: 60px 120px;
-    height: 120px;
+    background-color: rgb(14, 10, 10);
+    padding: 0 120px;
+    max-width: 100%;
+    border: solid 2px rgb(241, 239, 228);
 }
 .header div{
     flex-wrap: wrap;
+    align-items: center;
 }
 .flex{
     display: flex;
-    align-content: space-between;
+    justify-content: space-between;
 }
-body{
-    background-color: cadetblue;
+.brandlogo img{
+    width: 180px;
+}
+.nav a{
+    margin-left: 30px;
+    padding: 0 15px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(123, 226, 21);
+}
+h1{
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(17, 5, 184);
+    padding: 30px 0;
+}
+.gallery{
+    background-color: rgb(241, 239, 229);
+    max-width: 100%;
+    padding: 40px 0;
+}
+.gallery-section{
+    max-width: 100%;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+.gallery-section img{
+    max-width: 450px;
+    height: 380px;
+    border: solid 5px rgb(110, 100, 56);
+}
+.row-1,.row-2,.row-3{
+    margin-top: 40px;
+}
+.footer{
+    background-color: rgb(1, 1, 53);
+    height: fit-content;
+    padding: 30px 40px;
+    border:solid 2px rgb(241, 239, 228);
+    flex-wrap: wrap;
+    align-items: center;
+}
+.footer div a{
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(219, 240, 228);
+}
+.icon i{
+    font-size: 24px;
+    margin-left: 30px;
+    color: rgb(3, 197, 197);
+    text-decoration: none;
 }
